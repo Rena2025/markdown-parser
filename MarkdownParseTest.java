@@ -8,6 +8,8 @@ public class MarkdownParseTest {
 
     @Test
     public void testGetLinks() {
-        assertEquals(["https://something.com, some-page.html"], getLinks(Files.readString(test-file.md)));
+        ArrayList<String> arr = new ArrayList<String>();
+        arr = MarkdownParse.getLinks(Files.readString(Path.of("test-file.md")));
+        assertEquals(List.of("https://something.com", "some-page.html"), arr);
     }
 }
