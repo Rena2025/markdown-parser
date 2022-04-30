@@ -28,7 +28,7 @@ public class MarkdownParseTest {
         arr = MarkdownParse
                 .getLinks(Files.readString(Path.of("test-file2.md")));
 
-        assertEquals(List.of("https://something.com", "some-page.html"), arr);
+        assertEquals(List.of("https://something.com"), arr);
     }
 
     @Test
@@ -91,7 +91,7 @@ public class MarkdownParseTest {
         arr = MarkdownParse
                 .getLinks(Files.readString(Path.of("newFailingTest.md")));
 
-        assertEquals(List.of("haha"), arr);
+        assertEquals(List.of(), arr);
     }
 
 }
