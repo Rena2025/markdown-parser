@@ -31,9 +31,9 @@ public class MarkdownParse {
 		}
             toReturn.add(markdown.substring(openParen + 1, closeParen));
             currentIndex = closeParen + 1;
-            if(closeParen == -1) {
-                break;
-            }
+            // if(closeParen == -1) {
+            //     break;
+            // }
         }
 
         return toReturn;
