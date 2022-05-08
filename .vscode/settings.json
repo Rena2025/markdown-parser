@@ -5,7 +5,9 @@
             "c:\\Users\\18rh0\\Downloads\\hamcrest-core-1.3.jar",
             "c:\\Users\\18rh0\\Downloads\\junit-4.13.2.jar",
             "c:\\Users\\Owner\\Downloads\\junit-4.13.2.jar",
-            "c:\\Users\\Owner\\Downloads\\hamcrest-core-1.3.jar"
+            "c:\\Users\\Owner\\Downloads\\hamcrest-core-1.3.jar",
+            "c:\\Users\\Owner\\OneDrive\\Desktop\\lib\\hamcrest-core-1.3.jar",
+            "c:\\Users\\Owner\\OneDrive\\Desktop\\lib\\junit-4.13.2.jar"
         ],
         "exclude": [
             "lib/hamcrest-core-1.3.jar",
